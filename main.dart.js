@@ -43686,9 +43686,8 @@ A.arl.prototype={
 $1(a){return this.a.d.$1(this.b)},
 $S:9}
 A.US.prototype={
-D(a){var s=null,r=this.c,q=A.he(r.a),p=A.C(a).ax,o=p.rx
-p=o==null?p.k3:o
-r=A.aAm(A.b([new A.FY(B.Hr,"Total Amount Owed",q,p,new A.aqD(a),s),new A.FY(B.HH,"Collected",A.he(r.d),B.hr,s,s)],t.p),!0,!0,!0)
+D(a){var s=null,r=this.c
+r=A.aAm(A.b([new A.FY(B.Hr,"Total Amount Owed",A.he(r.a),B.hr,new A.aqD(a),s),new A.FY(B.HH,"Collected",A.he(r.d),A.C(a).ax.k3,s,s)],t.p),!0,!0,!0)
 return new A.ua(new A.ahR(2,12,12,1.5,s),r,s,B.ad,!1,s,s,B.NC,!0,s,s,2,B.ai,s,s,B.F,B.ao,s)}}
 A.aqD.prototype={
 $0(){return A.c7(this.a,!1).eL(A.iT(new A.aqC(),null,t.z))},
